@@ -14,5 +14,4 @@ WORKDIR ${BACKEND_SRC_PATH_CONTAINER}
 RUN go install github.com/cosmtrek/air@latest
 
 # airを実行
-# CMD ["air", "-c", ".air.toml"]
-CMD ["sh", "-c", "echo ${BACKEND_PORT} && air -c .air.toml"]
+CMD ["air", "-c", ".air.toml"]

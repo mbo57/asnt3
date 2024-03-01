@@ -1,0 +1,17 @@
+[book]
+authors = ["mbo57"]
+language = "jp"
+multilingual = false
+src = "src"
+title = "asnt3"
+
+[preprocessor]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output]
+
+[output.html]
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+
